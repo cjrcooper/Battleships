@@ -259,7 +259,6 @@ namespace Battleships.Tests
         private class FakeSettings : ISettings
         {
             public int BoardSize { get; set; }
-            public bool Ai { get; set; }
         }
 
         private class FakeInput : IInput
